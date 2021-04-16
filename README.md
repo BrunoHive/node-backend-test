@@ -25,7 +25,7 @@
 - Retorno das requisições e status com semântica nas operações realizadas.
 - Tratamento de erros e exceções.
 
-###### **BÔNUS**
+##### **Bônus**
 
 - Documentação da API, suas rotas e parâmetros.
 - Documentação dos requisitos necessários para rodar a aplicação.
