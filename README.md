@@ -4,33 +4,39 @@
 
 - Construir uma API REST capaz de realizar o `C.R.U.D.` seguindo os padrões atuais, manipulando os valores de entrada, processando e retornando os dados, mensagens e status coerentes.
 
+---
+
 #### Especificações da aplicação
 
 - Utilize `JavaScript` ou `TypeScript`.
 - Utilize as **ferramentas de sua preferência** para manipulação de requisições _http_, _banco de dados_ e outros.
 - A aplicação deve ser construída utilizando o `design pattern` padrão do **MVC**.
 
+---
+
 ##### RNF
 
-**Obrigatório**
+##### **Obrigatório**
 
 - A API deve seguir os princípios do desgin pattern `RESTful.`
 - Manipulação de dados no padrão `JSON`.
-- Os dados referentes à manipulação de dados devem ser persistidos em BD.
+- Os dados referentes à(s) entidade(s) devem ser persistidos em BD.
 - Isole as operações feitas diretamente no banco de dados em repositórios.
 - Retorno das requisições e status com semântica nas operações realizadas.
 - Tratamento de erros e exceções.
 
-**BÔNUS**
+##### **BÔNUS**
 
 - Documentação da API, suas rotas e parâmetros.
 - Documentação dos requisitos necessários para rodar a aplicação.
 
-**Diferencial**
+##### **Diferencial**
 
 - Criação de suíte de testes unitários.
 - Containerização da aplicação com Docker.
 - Live demo da aplicação.
+
+---
 
 ##### RF
 
