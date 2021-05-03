@@ -60,3 +60,29 @@
     - Se o nickname passado já existir, deve retornar status e mensagem de erro.
   - [] Deletar um usuário baseado no id recebido como parâmetro de rota: retorna o status de sucesso.
 
+--Iniciar projeto
+basta dar npm i para baixar as dependencies do projeto,
+em seguida node index.js para rodar aplicaçao global,
+a partir dela sera utilizado a porta 3000 do seu localhost,
+caso desejar visualizar no banco utilizei o dbeaver e pode encontra,
+as configuraçoes no arquivo .env
+
+--Usando rotas API 
+
+post - '/user' 
+ira criar usuario
+
+get - '/user'
+ira trazer todos usuarios
+
+put - '/user/:id'
+ira atualizar usuario com base no id alterando apenas campos na requisiçao
+
+delete - '/user/:id'
+ira apagar registro do usuario com base em seu id
+
+
+
+--Observaçoes finais:
+os demais pontos como container e testes ainda estou em processo de estudo 
+e nao me senti seguro em implementar,por esse motivo nao implementei 
